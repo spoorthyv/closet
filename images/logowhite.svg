@@ -4,10 +4,10 @@
   <g id="Canvas" transform="translate(601 -649)" figma:type="canvas">
     <g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
       <g id="closet" style="mix-blend-mode:normal;" figma:type="text">
-        <use xlink:href="#path0_fill" transform="translate(-536 657.5)" fill="#A0A0A0" style="mix-blend-mode:normal;"/>
+        <use xlink:href="#path0_fill" transform="translate(-536 657.5)" fill="#ffffff" style="mix-blend-mode:normal;"/>
       </g>
       <g id="Rectangle 10" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
-        <use xlink:href="#path1_fill" transform="translate(-601 649)" fill="#B3D2D0" style="mix-blend-mode:normal;"/>
+        <use xlink:href="#path1_fill" transform="translate(-601 649)" fill="#ffffff" style="mix-blend-mode:normal;"/>
       </g>
     </g>
   </g>
