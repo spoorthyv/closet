@@ -66,7 +66,10 @@ h1 {
 	background-color: rgba(0,0,0,0.09);
 }
 #one:hover,#two:hover,#three:hover,#four:hover {
-	background-color: rgba(129, 210, 208, 0.25);
+	background-color: rgba(129, 210, 208, 1);
+}
+#one:hover h1, #two:hover h1, #three:hover h1, #four:hover h1 {
+	color: white;
 }
 .top {
 	top: calc(50% - 170px);
@@ -93,6 +96,10 @@ h1 {
 	color: white;
 	letter-spacing: 2px;
 }
+input:focus {
+	outline: none;
+	background-color: rgba(129, 210, 208, 1);
+}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: white;
 }
@@ -112,8 +119,15 @@ h1 {
 	position: fixed;
 	top: 0%;
 }
-#logowrapper {
+.logowrapper {
   display: inline-block;
+	position: fixed;
+	top: 35px;
+	left: 40px;
+	z-index: 99;
+}
+#whitelogo {
+	opacity: 0;
 }
 #logo {
 	height: 35px;
