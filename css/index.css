@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'serif';
+	src: url('../fonts/NewBaskervilleStd-Roman.otf') format('woff');
+}
+@font-face {
+	font-family: 'serif-bold';
+	src: url('../fonts/NewBaskervilleStd-Bold.otf') format('woff');
+}
+@font-face {
+	font-family: 'sansSerif';
+	src: url('../fonts/Brown-Regular.otf') format('woff');
+}
+@font-face {
+	font-family: 'sansSerif-bold';
+	src: url('../fonts/Brown-Bold.otf') format('woff');
+}
+html, body, ul, div, img, h1, a, li {
+	padding:0;
+	margin:0;
+}
+* {
+	transition: all 0.3s;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	font-size: 0;
+	font-family: 'serif';
+}
+html,body {
+    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		width: 120%;
+		height: 100%;
+		overflow-x: hidden;
+}
+h1 {
+	font-size: 28px;
+	line-height: 30px;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	 position: absolute;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #757575;
+}
+.section {
+	text-align: center;
+	height: 100%;
+	width: 25%;
+	background-color: #fff;
+	display: inline-block;
+	transform: skew(-20deg) translateX(-61%);
+	-moz-transform: skew(-20deg) translateX(-61%);
+	-o-transform: skew(-20deg) translateX(-61%);
+}
+#two {
+	background-color: rgba(0,0,0,0.03);
+}
+#three {
+	background-color: rgba(0,0,0,0.06);
+}
+#four {
+	background-color: rgba(0,0,0,0.09);
+}
+#one:hover,#two:hover,#three:hover,#four:hover {
+	background-color: rgba(129, 210, 208, 0.25);
+}
+.top {
+	top: calc(50% - 170px);
+	right: 70px;
+}
+.bottom {
+	bottom: calc(50% - 170px);
+	left: 70px;
+}
+.search {
+	position: absolute;
+	max-width: 852px;
+	width: 100%;
+	height: 55px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border-style: none;
+	border-radius: 2px;
+	background-color: #B3D2D0;
+	font-size: 20px;
+	text-align: center;
+	font-family: "sansSerif";
+	color: white;
+	letter-spacing: 2px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+#header {
+  width: calc(100% - 70px);
+  padding: 35px 40px;
+	z-index: 99;
+	position: fixed;
+	top: 0%;
+}
+#logowrapper {
+  display: inline-block;
+}
+#logo {
+	height: 35px;
+}
