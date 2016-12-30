@@ -1,0 +1,69 @@
+html, body, ul, div, img, h1, a, li {
+	padding:0;
+	margin:0;
+}
+* {
+	transition: all 0.3s;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	font-size: 0;
+}
+body {
+    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 30px;
+	line-height: 30px;
+	-webkit-transform: skew(20deg);
+		 -moz-transform: skew(20deg);
+			 -o-transform: skew(20deg);
+}
+.section {
+	height: 100vh;
+	width: 25%;
+	background-color: #fff;
+	display: inline-block;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+}
+
+#two {
+	background-color: rgba(0,0,0,0.025);
+}
+#three {
+	background-color: rgba(0,0,0,0.05);
+}
+#four {
+	background-color: rgba(0,0,0,0.075);
+}
+
+
+
+
+/*a {
+  text-decoration: none;
+  color: #6F49FF;
+  font-size: 18px;
+  line-height: 18px;
+  display: inline-block;
+}
+#header {
+  display: block;
+  padding: 40px 45px;
+}
+#logowrapper {
+  display: inline-block;
+}
+#logo {
+	height: 58px;
+}
+
+#logout {
+  display: inline-block;
+  float: right;
+	margin-top: 15px;
+}*/
