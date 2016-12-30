@@ -11,8 +11,11 @@ html, body, ul, div, img, h1, a, li {
 	line-height: 0;
 	font-size: 0;
 }
-body {
+html,body {
     font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		width: 120%;
+		height: 100%;
+		overflow-x: hidden;
 }
 h1 {
 	font-size: 30px;
@@ -20,26 +23,32 @@ h1 {
 	-webkit-transform: skew(20deg);
 		 -moz-transform: skew(20deg);
 			 -o-transform: skew(20deg);
+	 position: absolute;
 }
 .section {
-	height: 100vh;
+	text-align: center;
+	height: 100%;
 	width: 25%;
 	background-color: #fff;
 	display: inline-block;
-	-webkit-transform: skew(-20deg);
+
+	transform: skew(-20deg) translateX(-61%);
 	   -moz-transform: skew(-20deg);
 	     -o-transform: skew(-20deg);
 }
 
-#two {
-	background-color: rgba(0,0,0,0.025);
-}
-#three {
+#two,#four {
 	background-color: rgba(0,0,0,0.05);
 }
-#four {
-	background-color: rgba(0,0,0,0.075);
+.top {
+	top: calc(50% - 170px);
+	right: 50px;
 }
+.bottom {
+	top: calc(50% + 170px);
+	left: 50px;
+}
+
 
 
 
